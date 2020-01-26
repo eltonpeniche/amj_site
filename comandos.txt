@@ -1,0 +1,15 @@
+
+npm init 
+
+npm install bootstrap
+
+npm install jquery
+
+npm install -g sass
+
+sass -v
+
+npm install @fortawesome/fontawesome-free
+
+sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css 
+
