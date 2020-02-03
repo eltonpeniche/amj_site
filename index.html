@@ -260,25 +260,25 @@
         
         <div class="form-row justify-content-center mb-5">
           <div class="col-sm-12 col-md-10 col-lg-8">
-            <form>
+            <form class="form" method="POST" action="./contato.php">
               <div class="form-row">
                 <div class="form-group col-sm-12">
-					<input type="text" class="form-control" id="inputNome" placeholder="Nome" required>
+					<input type="text" class="form-control" id="inputNome" name="name" placeholder="Nome" required>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-sm-12">
-                  <input type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
+                  <input type="email" class="form-control" id="inputEmail" name="email" placeholder="E-mail" required>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-sm-12">
-                  <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto" required>
+                  <input type="text" class="form-control" id="inputAssunto" name="assunto" placeholder="Assunto" required>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-sm-12">
-                  <textarea class="form-control" rows="7" id="inputMessagem" placeholder="Messagem" required></textarea>
+                  <textarea class="form-control" rows="7" id="inputMessagem"  name="message" placeholder="Messagem" required></textarea>
                 </div>
               </div>
               
